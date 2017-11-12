@@ -1,0 +1,13 @@
+allprojects {
+    group = 'com.wpruszak'
+    version = '1.0.0'
+}
+
+subprojects {
+    afterEvaluate {
+        repositories {
+            mavenCentral()
+            jcenter()
+        }
+    }
+}
